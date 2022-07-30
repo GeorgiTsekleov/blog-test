@@ -1,0 +1,88 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+body {
+    background-color: #4686e4;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header nav {
+    margin-left: auto;
+}
+
+.header nav a {
+    color: #4686e4;
+}
+
+.main-section {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container-articles {
+    flex-basis: 70%;
+    margin-right: 20px;
+}
+
+.conteiner-links {
+    flex-grow: 1;
+    background-color: #e69e04;
+    padding: 10px;
+}
+/* flex-basis: 30%; */
+    /* може да се каже и така с 30% 
+    или да се каже да порасне с flex-grow: 1
+    толкова колкот му остава от тези 70% */
+.conteiner-links a {
+    color: black;
+}
+
+.conteiner-links h2 {
+    
+    background-color:  rgb(185, 106, 14);
+    color: white;
+    padding: 10px;
+}
+
+.container-articles p {
+    color: black;
+}
+
+.acticle-author {
+    margin-bottom: 15px;
+}
+
+.acticle-text {
+    margin-top: 15px;
+}
+
+.container-articles article {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
